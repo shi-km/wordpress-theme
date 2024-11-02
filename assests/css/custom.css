@@ -10,6 +10,7 @@ Blue grey #3e4249
 body{
     padding-top: 50px;
     background:url(../img/tile.jpg);
+    font-size: 16px;
 }
 
 /* GLOBAL */
@@ -30,6 +31,17 @@ margin: 20px 0;
 h4{
 font-size: 14px
 }
+.btn{
+    font-weight: bold;
+}
+.hero-text .btn-danger {
+    background-color: #dd5636;
+    border-collapse: black;
+}
+img{
+    max-width: 100%;
+}
+/* HERO SECTION */
 #hero{
     background: url('../img/hero-bg.jpg') 50% 0 repeat fixed;
     color: white;
@@ -57,5 +69,46 @@ margin: 30px 0 60px;
 }
 
 #price-timeline .price span{
-    background: #79b044;
+    background: #101010;
+    display: block;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -35px;
+    border-radius: 100%;
+    font-weight: bold;
+    -webkit-border-radius:100% ;
+    -moz-border-radius:100% ;
+    margin-left: -20%;
+    line-height: 70px;
+    width: 70px;
+}
+
+
+#price-timeline h4 {
+    margin:0 0 30px;
+    text-align: center;
+}
+
+#price-timeline h4 small{
+    color: white;
+    display: block;
+    font-weight: bold;
+
+}
+#hero article{
+    text-align: center;
+}
+/* LAYOUT */
+#optin{
+    background: #3e4249;
+    color: white;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    padding: 20px 0;
+    font-size: 1.2em;
+}
+
+#optin p{
+    margin: 7px 0 0 0;
 }
