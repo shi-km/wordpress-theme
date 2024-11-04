@@ -38,8 +38,44 @@ font-size: 14px
     background-color: #dd5636;
     border-collapse: black;
 }
+.btn-success{
+    background: #79b044;
+    border: none;
+}
+.btn-success:hover{
+    background: #6a9b3d;
+}
 img{
     max-width: 100%;
+}
+.badge.social{
+    background: #ccc;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    margin: 0 5px 24px 0;
+    color: white;
+
+}
+.badge.social:hover{
+    background: #55acee;
+}
+blockquote{
+    border: none;
+    font-style: italic;
+    text-align: left;
+    padding: 0;
+}
+blockquote cite{
+    display: block;
+    color: #777;
+    margin-top: 15px;
+}
+blockquote::before{
+    display: none;
 }
 /* HERO SECTION */
 #hero{
@@ -155,4 +191,51 @@ i.ci{
     background-size: cover;
     text-align: center;
     color: white;
+}
+#instructor{
+    background: white url('/assests/img/brad-elvis.png')  90%  -10% no-repeat;
+}
+#instructor h2{
+margin: 0 0 ;
+}
+#instructor .num{
+    display: table;
+    color: black;
+    font-size:30px ;
+    font-weight: bold;
+    height: 140px;
+    line-height: 24px;
+    width: 140px;
+    border-radius: 100%;
+    background: #dd5636;
+
+
+}
+#instructor .num .num-content{
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 30px;
+    color: white;
+}
+#instructor .num span{
+    font-size: 20px;
+    display: block;
+    font-weight: normal;
+}
+#kudos{
+    text-align: center;
+}
+.testimonial{
+    margin-bottom: 60px;
+}
+
+.testimonial img{
+    border-radius: 50%;
+}
+#signup{
+    text-align: center;
+    background: url(/assests/img/hipster-stuff.jpg) center center repeat fixed;
+    color: white;
+    background-size: cover;
+    padding: 140px 0;
 }
