@@ -148,3 +148,11 @@ i.ci{
 .ci.ci-community   {background-position: -120px 0;}
 .ci.ci-instructor  {background-position: -160px 0;}
 .ci.ci-device       {background-position: -200px 0;}
+
+/* featurate */
+#featurate{
+    background: url('/assests/img/stuff-bg.jpg') 50% 100% repeat fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
