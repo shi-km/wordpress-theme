@@ -192,6 +192,9 @@ i.ci{
     text-align: center;
     color: white;
 }
+#featurate iframe{
+    height: 240px;
+}
 #instructor{
     background: white url('/assests/img/brad-elvis.png')  90%  -10% no-repeat;
 }
@@ -239,3 +242,19 @@ margin: 0 0 ;
     background-size: cover;
     padding: 140px 0;
 }
+footer{
+    background:#3e4249;
+    padding: 20px 0 10px;
+    color: white;
+    font-size: 12px;
+}
+footer a:link, footer a:visited{
+color: white;
+}
+footer a:hover{
+    color: #dd5636;
+}
+footer a:hover{
+    text-decoration: none;
+}
+
